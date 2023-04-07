@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        img {
+            width: 200px;
+            height: 250px
+        }
+        /*sayfada herhangi bir img etiketi görüyorsan bunun yüksekiğini ve genişliğini 200px'le ayarla*/
+
+        .resim1 {
+            width: 30%;
+            height: 30%;
+        }
+
+        .resim2 {
+            width: 20%;
+            height: 20%;
+        }
+
+        .resim3 {
+            width: 10%;
+            height: 10%;
+        }
+
+        .p1 {
+            font-size: 20px;
+            font-weight: 100;
+        }
+
+        .p2 {
+            font-size: 50px;
+            font-weight: 500;
+        }
+      
+/*----------------------------------------------------------------*/
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px; /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+            /* Style the list inside the menu */
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px; /* only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    
+
+    </style>
+</head>
+<body>
+    <h1>Burası Hakkımızda Sayfası... </h1>
+
+
+    <nav>
+        <!--navigation-->
+        <ul>
+            <!--Unordered List-->
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="About.html">Hakkımızda</a></li>
+            <li><a href="Contact.html">Erişim</a></li>
+        </ul>
+
+    </nav>
+
+    <img class="resim1" src="kedicik.jpeg" alt="Kedi" />
+    <img class="resim2" src="kedicik.jpeg" alt="Kedi" />
+    <img class="resim3" src="kedicik.jpeg" alt="Kedi" />
+
+    <br />
+    <h3>Merhaba Dünya...</h3>
+    <br />
+    <p class="p1">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+    </p>
+    <p class="p2">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+    </p>
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+    <h2>CSS Layout Float</h2>
+    <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+    <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+    <header>
+        <h2>Cities</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="London">London</a></li>
+                <li><a href="Paris">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </nav>
+
+        <article>
+        
+                <h1>London</h1>
+                <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+         
+
+        </article>
+    </section>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+
+
+</body>
+</html>
