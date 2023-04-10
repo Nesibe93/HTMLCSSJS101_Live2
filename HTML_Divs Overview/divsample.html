@@ -4,22 +4,50 @@
     <meta charset="utf-8" />
     <title>DIV Sample1</title>
     <style type="text/css">
-        div
+        
+        .maindiv {
+            border: 3px dotted green;
+            float:left;
+            background-color: gainsboro;
+                       
+        }
+        .otherdivs
         {
+            float: left;
             color: white;
             background-color: rebeccapurple;
             margin: 5px;
             font-size: 25px;
+            border: 2px solid black;
+            width:200px;
+            height: 450px;
         }
+        p
+        {
+            color: white;
+            font-size: 15px;
+            font-style: italic;
+        }
+/*
+---------------------------------------------------------------------------------------*/
 
-    </style>
-    
+	</style>
 </head>
+
 <body>
-    <div>DIV Tag 1</div>
-    <div>DIV Tag 2</div>
-    <div>DIV Tag 3</div>
-    <div>DIV Tag 4</div>
+    <div class="maindiv">
+    <div class="otherdivs">DIV Tag 1
+    <p>Lorem Ipsum
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae vehicula mauris, eu bibendum diam. In blandit ipsum nisi, et aliquam ante tincidunt eget. Ut sit amet neque sem. Donec iaculis varius ipsum, sed suscipit tortor ullamcorper nec. Cras efficitur faucibus lobortis. Aenean eu leo venenatis, laoreet elit quis, lacinia purus. Nulla sagittis rhoncus sapien quis ultricies. Integer cursus, ex nec finibus aliquet, erat turpis maximus dui, vitae rutrum nulla ex a libero. Ut molestie augue quis rhoncus pulvinar. Proin pretium finibus cursus. Suspendisse ultrices at est eu rutrum. Cras dignissim rhoncus risus id egestas.
+    </p>
+        </div>
+    <div class="otherdivs">DIV Tag 2</div>
+    <div class="otherdivs">DIV Tag 3</div>
+    <div class="otherdivs">DIV Tag 4</div>
+        </div>
+
+   <!-- -------------------------------------------------------------------------------->
+    
 
 </body>
 </html>
