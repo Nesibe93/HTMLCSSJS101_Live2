@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Form & Inputs</title>
+    <style type="text/css">
+        #Text {
+            width: 247px;
+        }
+    </style>
+</head>
+<body>
+    <form action="mail.com" method="post">
+        <p>Adınız ve Soyadınız: 
+            <input type="text" name="adsoyad" value="" />
+        </p>
+        <hr />
+        <p>Lütfen bir şehir seçiniz...</p>
+        <input id="Radio1" type="radio" value="İstanbul" /> İstanbul
+        <br />
+        <input id="Radio2" type="radio" value="Ankara" /> Ankara
+        <br />
+        <input id="Radio3" type="radio" value="İzmir" /> İzmir
+        <hr />
+        <p>
+            <input id="Text" type="Text" placeholder="Gideceğiniz şehri yazar mısınız?" style="width:240px" />
+        </p>
+        <hr />
+        <p>
+            <input type="Checkbox1" name="checkbox" /> Uyandınız mı arkadaşlar
+        </p>
+        <hr />
+        <p>
+            <b>Günler</b>
+            <select id="Select1">
+                <option>Pazartesi</option>
+                <option>Salı</option>
+                <option>Çarşamba</option>
+                <option>Perşembe</option>
+                <option selected>Cuma</option> <!--Seçili olan item-->
+                <option>Cumartesi</option>
+                <option>Pazar</option>
+            </select>
+            <p>Hakkınızda biraz bilgi verebilir misiniz?</p>
+        <textarea id="TextArea1" cols="50" rows="5" style="resize:none;width:500px"></textarea>
+        <br />
+        <br />
+        <input id="Button1" type="button" value="Click me" /> <br /><br />
+        <input id="Reset1" type="reset" value="Ekranı Sil" />
+       
+    </form>
+</body>
+</html>

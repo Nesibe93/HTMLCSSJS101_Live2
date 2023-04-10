@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{17410B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML Table", "HTML Table\HTML Table.csproj", "{F9BCEEBA-4E12-42A1-AA37-7AB10020A9DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML_Forminput", "HTML_Forminput\HTML_Forminput.csproj", "{6365ED65-FE8F-4DDB-BF45-FA2C3FC72147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML_Divs Overview", "HTML_Divs Overview\HTML_Divs Overview.csproj", "{B7731425-F9F2-41C5-BB7C-0B7E140CE593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F9BCEEBA-4E12-42A1-AA37-7AB10020A9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9BCEEBA-4E12-42A1-AA37-7AB10020A9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9BCEEBA-4E12-42A1-AA37-7AB10020A9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6365ED65-FE8F-4DDB-BF45-FA2C3FC72147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6365ED65-FE8F-4DDB-BF45-FA2C3FC72147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6365ED65-FE8F-4DDB-BF45-FA2C3FC72147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6365ED65-FE8F-4DDB-BF45-FA2C3FC72147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7731425-F9F2-41C5-BB7C-0B7E140CE593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7731425-F9F2-41C5-BB7C-0B7E140CE593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7731425-F9F2-41C5-BB7C-0B7E140CE593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7731425-F9F2-41C5-BB7C-0B7E140CE593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
